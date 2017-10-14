@@ -1,0 +1,5 @@
+org/wildcraft/util/collections/CollectionFactoryTest.class
+org/wildcraft/util/optional/OptionalTest.class
+org/wildcraft/util/arrays/CompareArraysTest.class
+org/wildcraft/util/reactive/ReactiveTest.class
+org/wildcraft/util/stream/StreamTest.class

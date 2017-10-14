@@ -1,0 +1,8 @@
+org/wildcraft/stackwalker/StackWalkerTest.class
+org/wildcraft/safevararg/SafeVarArgTest.class
+org/wildcraft/string/StringTest.class
+org/wildcraft/process/ControlProcessTest.class
+org/wildcraft/diamond/DiamondTest.class
+org/wildcraft/contract/PrivateInterfaceMethodTest.class
+org/wildcraft/exception/TryWithResourceTest.class
+org/wildcraft/depreciation/DepreciationTest.class
