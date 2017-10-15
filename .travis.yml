@@ -2,4 +2,8 @@ language: java
 sudo: false
 script: mvn -f parent/pom.xml package
 dist: trusty
-jdk: oraclejdk8
+jdk: oraclejdk9
+addons:  
+  apt:    
+     packages:      
+       - oracle-java9-installer
