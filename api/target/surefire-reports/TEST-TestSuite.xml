@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="25" failures="0" name="TestSuite" time="0.143" errors="0" skipped="0">
+<testsuite tests="25" failures="0" name="TestSuite" time="0.219" errors="0" skipped="0">
   <properties>
     <property name="idea.version" value="2017.2.3"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
@@ -7,7 +7,7 @@
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-9.jdk/Contents/Home/lib"/>
     <property name="user.country.format" value="IN"/>
     <property name="gopherProxySet" value="false"/>
-    <property name="maven.multiModuleProjectDirectory" value="/Users/sree/Documents/opensource/github/jdk9-features/parent"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/sree/Documents/opensource/github/java-features/api"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -18,7 +18,7 @@
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="/Users/sree/Documents/opensource/github/jdk9-features/parent"/>
+    <property name="user.dir" value="/Users/sree/Documents/opensource/github/java-features/api"/>
     <property name="java.vm.compressedOopsMode" value="Zero based"/>
     <property name="java.runtime.version" value="9+181"/>
     <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
@@ -63,29 +63,29 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="org.wildcraft.util.arrays.CompareArraysTest" name="testArraysCompare" time="0.028"/>
+  <testcase classname="org.wildcraft.util.arrays.CompareArraysTest" name="testArraysCompare" time="0.036"/>
   <testcase classname="org.wildcraft.util.arrays.CompareArraysTest" name="testArraysCompareWithDifferentArray" time="0"/>
   <testcase classname="org.wildcraft.util.collections.CollectionFactoryTest" name="testCollectionOrderIsUnstable" time="0.003"/>
   <testcase classname="org.wildcraft.util.collections.CollectionFactoryTest" name="testCollectionOrderIsUnstable" time="0"/>
-  <testcase classname="org.wildcraft.util.collections.CollectionFactoryTest" name="testCollectionOrderIsUnstable" time="0"/>
-  <testcase classname="org.wildcraft.util.collections.CollectionFactoryTest" name="testCollectionOrderIsUnstable" time="0"/>
   <testcase classname="org.wildcraft.util.collections.CollectionFactoryTest" name="testCollectionOrderIsUnstable" time="0.001"/>
-  <testcase classname="org.wildcraft.util.collections.CollectionFactoryTest" name="testCollectionsAreImmutable" time="0.015"/>
+  <testcase classname="org.wildcraft.util.collections.CollectionFactoryTest" name="testCollectionOrderIsUnstable" time="0"/>
+  <testcase classname="org.wildcraft.util.collections.CollectionFactoryTest" name="testCollectionOrderIsUnstable" time="0"/>
+  <testcase classname="org.wildcraft.util.collections.CollectionFactoryTest" name="testCollectionsAreImmutable" time="0.017"/>
   <testcase classname="org.wildcraft.util.collections.CollectionFactoryTest" name="testCreateCollectionInJava9" time="0.002"/>
   <testcase classname="org.wildcraft.util.collections.CollectionFactoryTest" name="testCreateCollectionWithoutEnhancement" time="0"/>
-  <testcase classname="org.wildcraft.util.collections.CollectionFactoryTest" name="testImmutableMapOf10Elements" time="0.029"/>
+  <testcase classname="org.wildcraft.util.collections.CollectionFactoryTest" name="testImmutableMapOf10Elements" time="0.023"/>
   <testcase classname="org.wildcraft.util.collections.CollectionFactoryTest" name="testImmutableMapOf11Elements" time="0"/>
   <testcase classname="org.wildcraft.util.optional.OptionalTest" name="testOptionalIfPresentOrElse" time="0.001"/>
   <testcase classname="org.wildcraft.util.optional.OptionalTest" name="testOptionalOr" time="0.001"/>
   <testcase classname="org.wildcraft.util.optional.OptionalTest" name="testOptionalStream" time="0.001"/>
-  <testcase classname="org.wildcraft.util.optional.OptionalTest" name="testOptionalWithoutIfPresentOrElse" time="0.001"/>
-  <testcase classname="org.wildcraft.util.optional.OptionalTest" name="testOptionalWithoutOr" time="0"/>
+  <testcase classname="org.wildcraft.util.optional.OptionalTest" name="testOptionalWithoutIfPresentOrElse" time="0"/>
+  <testcase classname="org.wildcraft.util.optional.OptionalTest" name="testOptionalWithoutOr" time="0.001"/>
   <testcase classname="org.wildcraft.util.optional.OptionalTest" name="testOptionalWithoutStream" time="0.001"/>
-  <testcase classname="org.wildcraft.util.reactive.ReactiveTest" name="testPublishAndSubscribe" time="0.024"/>
-  <testcase classname="org.wildcraft.util.stream.StreamTest" name="testDropWhile" time="0.015"/>
-  <testcase classname="org.wildcraft.util.stream.StreamTest" name="testIterateStoppable" time="0.009"/>
+  <testcase classname="org.wildcraft.util.reactive.ReactiveTest" name="testPublishAndSubscribe" time="0.027"/>
+  <testcase classname="org.wildcraft.util.stream.StreamTest" name="testDropWhile" time="0.078"/>
+  <testcase classname="org.wildcraft.util.stream.StreamTest" name="testIterateStoppable" time="0.001"/>
   <testcase classname="org.wildcraft.util.stream.StreamTest" name="testOfNullable" time="0.001"/>
-  <testcase classname="org.wildcraft.util.stream.StreamTest" name="testOfNullableStream" time="0.001"/>
-  <testcase classname="org.wildcraft.util.stream.StreamTest" name="testOfNullableStreamCount" time="0.009"/>
-  <testcase classname="org.wildcraft.util.stream.StreamTest" name="testTakeWhile" time="0.001"/>
+  <testcase classname="org.wildcraft.util.stream.StreamTest" name="testOfNullableStream" time="0.002"/>
+  <testcase classname="org.wildcraft.util.stream.StreamTest" name="testOfNullableStreamCount" time="0.01"/>
+  <testcase classname="org.wildcraft.util.stream.StreamTest" name="testTakeWhile" time="0.013"/>
 </testsuite>

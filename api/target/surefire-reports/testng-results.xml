@@ -2,100 +2,100 @@
 <testng-results ignored="1" total="26" passed="25" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2017-10-14T15:19:31Z" name="Command line suite" finished-at="2017-10-14T15:19:31Z" duration-ms="191">
+  <suite started-at="2017-10-15T02:47:57Z" name="Command line suite" finished-at="2017-10-15T02:47:57Z" duration-ms="254">
     <groups>
     </groups>
-    <test started-at="2017-10-14T15:19:31Z" name="Command line test" finished-at="2017-10-14T15:19:31Z" duration-ms="191">
+    <test started-at="2017-10-15T02:47:57Z" name="Command line test" finished-at="2017-10-15T02:47:57Z" duration-ms="254">
       <class name="org.wildcraft.util.stream.StreamTest">
-        <test-method signature="testDropWhile()[pri:0, instance:org.wildcraft.util.stream.StreamTest@4d9e68d0]" started-at="2017-10-14T20:49:31Z" name="testDropWhile" finished-at="2017-10-14T20:49:31Z" duration-ms="15" status="PASS">
+        <test-method signature="testDropWhile()[pri:0, instance:org.wildcraft.util.stream.StreamTest@4d9e68d0]" started-at="2017-10-15T08:17:57Z" name="testDropWhile" finished-at="2017-10-15T08:17:57Z" duration-ms="78" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDropWhile -->
-        <test-method signature="testIterateStoppable()[pri:0, instance:org.wildcraft.util.stream.StreamTest@4d9e68d0]" started-at="2017-10-14T20:49:31Z" name="testIterateStoppable" finished-at="2017-10-14T20:49:31Z" duration-ms="9" status="PASS">
+        <test-method signature="testIterateStoppable()[pri:0, instance:org.wildcraft.util.stream.StreamTest@4d9e68d0]" started-at="2017-10-15T08:17:57Z" name="testIterateStoppable" finished-at="2017-10-15T08:17:57Z" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testIterateStoppable -->
-        <test-method signature="testOfNullable()[pri:0, instance:org.wildcraft.util.stream.StreamTest@4d9e68d0]" started-at="2017-10-14T20:49:31Z" name="testOfNullable" finished-at="2017-10-14T20:49:31Z" duration-ms="1" status="PASS">
+        <test-method signature="testOfNullable()[pri:0, instance:org.wildcraft.util.stream.StreamTest@4d9e68d0]" started-at="2017-10-15T08:17:57Z" name="testOfNullable" finished-at="2017-10-15T08:17:57Z" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testOfNullable -->
-        <test-method signature="testOfNullableStream()[pri:0, instance:org.wildcraft.util.stream.StreamTest@4d9e68d0]" started-at="2017-10-14T20:49:31Z" name="testOfNullableStream" finished-at="2017-10-14T20:49:31Z" duration-ms="2" status="PASS">
+        <test-method signature="testOfNullableStream()[pri:0, instance:org.wildcraft.util.stream.StreamTest@4d9e68d0]" started-at="2017-10-15T08:17:57Z" name="testOfNullableStream" finished-at="2017-10-15T08:17:57Z" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testOfNullableStream -->
-        <test-method signature="testOfNullableStreamCount()[pri:0, instance:org.wildcraft.util.stream.StreamTest@4d9e68d0]" started-at="2017-10-14T20:49:31Z" name="testOfNullableStreamCount" finished-at="2017-10-14T20:49:31Z" duration-ms="8" status="PASS">
+        <test-method signature="testOfNullableStreamCount()[pri:0, instance:org.wildcraft.util.stream.StreamTest@4d9e68d0]" started-at="2017-10-15T08:17:57Z" name="testOfNullableStreamCount" finished-at="2017-10-15T08:17:57Z" duration-ms="10" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testOfNullableStreamCount -->
-        <test-method signature="testTakeWhile()[pri:0, instance:org.wildcraft.util.stream.StreamTest@4d9e68d0]" started-at="2017-10-14T20:49:31Z" name="testTakeWhile" finished-at="2017-10-14T20:49:31Z" duration-ms="1" status="PASS">
+        <test-method signature="testTakeWhile()[pri:0, instance:org.wildcraft.util.stream.StreamTest@4d9e68d0]" started-at="2017-10-15T08:17:57Z" name="testTakeWhile" finished-at="2017-10-15T08:17:57Z" duration-ms="12" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testTakeWhile -->
       </class> <!-- org.wildcraft.util.stream.StreamTest -->
       <class name="org.wildcraft.util.optional.OptionalTest">
-        <test-method signature="testOptionalIfPresentOrElse()[pri:0, instance:org.wildcraft.util.optional.OptionalTest@7334aada]" started-at="2017-10-14T20:49:31Z" name="testOptionalIfPresentOrElse" finished-at="2017-10-14T20:49:31Z" duration-ms="1" status="PASS">
+        <test-method signature="testOptionalIfPresentOrElse()[pri:0, instance:org.wildcraft.util.optional.OptionalTest@7334aada]" started-at="2017-10-15T08:17:57Z" name="testOptionalIfPresentOrElse" finished-at="2017-10-15T08:17:57Z" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testOptionalIfPresentOrElse -->
-        <test-method signature="testOptionalOr()[pri:0, instance:org.wildcraft.util.optional.OptionalTest@7334aada]" started-at="2017-10-14T20:49:31Z" name="testOptionalOr" finished-at="2017-10-14T20:49:31Z" duration-ms="1" status="PASS">
+        <test-method signature="testOptionalOr()[pri:0, instance:org.wildcraft.util.optional.OptionalTest@7334aada]" started-at="2017-10-15T08:17:57Z" name="testOptionalOr" finished-at="2017-10-15T08:17:57Z" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testOptionalOr -->
-        <test-method signature="testOptionalStream()[pri:0, instance:org.wildcraft.util.optional.OptionalTest@7334aada]" started-at="2017-10-14T20:49:31Z" name="testOptionalStream" finished-at="2017-10-14T20:49:31Z" duration-ms="1" status="PASS">
+        <test-method signature="testOptionalStream()[pri:0, instance:org.wildcraft.util.optional.OptionalTest@7334aada]" started-at="2017-10-15T08:17:57Z" name="testOptionalStream" finished-at="2017-10-15T08:17:57Z" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testOptionalStream -->
-        <test-method signature="testOptionalWithoutIfPresentOrElse()[pri:0, instance:org.wildcraft.util.optional.OptionalTest@7334aada]" started-at="2017-10-14T20:49:31Z" name="testOptionalWithoutIfPresentOrElse" finished-at="2017-10-14T20:49:31Z" duration-ms="0" status="PASS">
+        <test-method signature="testOptionalWithoutIfPresentOrElse()[pri:0, instance:org.wildcraft.util.optional.OptionalTest@7334aada]" started-at="2017-10-15T08:17:57Z" name="testOptionalWithoutIfPresentOrElse" finished-at="2017-10-15T08:17:57Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testOptionalWithoutIfPresentOrElse -->
-        <test-method signature="testOptionalWithoutOr()[pri:0, instance:org.wildcraft.util.optional.OptionalTest@7334aada]" started-at="2017-10-14T20:49:31Z" name="testOptionalWithoutOr" finished-at="2017-10-14T20:49:31Z" duration-ms="0" status="PASS">
+        <test-method signature="testOptionalWithoutOr()[pri:0, instance:org.wildcraft.util.optional.OptionalTest@7334aada]" started-at="2017-10-15T08:17:57Z" name="testOptionalWithoutOr" finished-at="2017-10-15T08:17:57Z" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testOptionalWithoutOr -->
-        <test-method signature="testOptionalWithoutStream()[pri:0, instance:org.wildcraft.util.optional.OptionalTest@7334aada]" started-at="2017-10-14T20:49:31Z" name="testOptionalWithoutStream" finished-at="2017-10-14T20:49:31Z" duration-ms="1" status="PASS">
+        <test-method signature="testOptionalWithoutStream()[pri:0, instance:org.wildcraft.util.optional.OptionalTest@7334aada]" started-at="2017-10-15T08:17:57Z" name="testOptionalWithoutStream" finished-at="2017-10-15T08:17:57Z" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testOptionalWithoutStream -->
       </class> <!-- org.wildcraft.util.optional.OptionalTest -->
       <class name="org.wildcraft.util.reactive.ReactiveTest">
-        <test-method signature="testPublishAndSubscribe()[pri:0, instance:org.wildcraft.util.reactive.ReactiveTest@1d9b7cce]" started-at="2017-10-14T20:49:31Z" name="testPublishAndSubscribe" finished-at="2017-10-14T20:49:31Z" duration-ms="24" status="PASS">
+        <test-method signature="testPublishAndSubscribe()[pri:0, instance:org.wildcraft.util.reactive.ReactiveTest@1d9b7cce]" started-at="2017-10-15T08:17:57Z" name="testPublishAndSubscribe" finished-at="2017-10-15T08:17:57Z" duration-ms="26" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testPublishAndSubscribe -->
       </class> <!-- org.wildcraft.util.reactive.ReactiveTest -->
       <class name="org.wildcraft.util.arrays.CompareArraysTest">
-        <test-method signature="testArraysCompare()[pri:0, instance:org.wildcraft.util.arrays.CompareArraysTest@123ef382]" started-at="2017-10-14T20:49:31Z" name="testArraysCompare" finished-at="2017-10-14T20:49:31Z" duration-ms="29" status="PASS">
+        <test-method signature="testArraysCompare()[pri:0, instance:org.wildcraft.util.arrays.CompareArraysTest@123ef382]" started-at="2017-10-15T08:17:57Z" name="testArraysCompare" finished-at="2017-10-15T08:17:57Z" duration-ms="35" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testArraysCompare -->
-        <test-method signature="testArraysCompareWithDifferentArray()[pri:0, instance:org.wildcraft.util.arrays.CompareArraysTest@123ef382]" started-at="2017-10-14T20:49:31Z" name="testArraysCompareWithDifferentArray" finished-at="2017-10-14T20:49:31Z" duration-ms="1" status="PASS">
+        <test-method signature="testArraysCompareWithDifferentArray()[pri:0, instance:org.wildcraft.util.arrays.CompareArraysTest@123ef382]" started-at="2017-10-15T08:17:57Z" name="testArraysCompareWithDifferentArray" finished-at="2017-10-15T08:17:57Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testArraysCompareWithDifferentArray -->
       </class> <!-- org.wildcraft.util.arrays.CompareArraysTest -->
       <class name="org.wildcraft.util.collections.CollectionFactoryTest">
-        <test-method signature="testCollectionOrderIsUnstable()[pri:0, instance:org.wildcraft.util.collections.CollectionFactoryTest@441772e]" started-at="2017-10-14T20:49:31Z" name="testCollectionOrderIsUnstable" finished-at="2017-10-14T20:49:31Z" duration-ms="2" status="PASS">
+        <test-method signature="testCollectionOrderIsUnstable()[pri:0, instance:org.wildcraft.util.collections.CollectionFactoryTest@441772e]" started-at="2017-10-15T08:17:57Z" name="testCollectionOrderIsUnstable" finished-at="2017-10-15T08:17:57Z" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCollectionOrderIsUnstable -->
-        <test-method signature="testCollectionOrderIsUnstable()[pri:0, instance:org.wildcraft.util.collections.CollectionFactoryTest@441772e]" started-at="2017-10-14T20:49:31Z" name="testCollectionOrderIsUnstable" finished-at="2017-10-14T20:49:31Z" duration-ms="0" status="PASS">
+        <test-method signature="testCollectionOrderIsUnstable()[pri:0, instance:org.wildcraft.util.collections.CollectionFactoryTest@441772e]" started-at="2017-10-15T08:17:57Z" name="testCollectionOrderIsUnstable" finished-at="2017-10-15T08:17:57Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCollectionOrderIsUnstable -->
-        <test-method signature="testCollectionOrderIsUnstable()[pri:0, instance:org.wildcraft.util.collections.CollectionFactoryTest@441772e]" started-at="2017-10-14T20:49:31Z" name="testCollectionOrderIsUnstable" finished-at="2017-10-14T20:49:31Z" duration-ms="0" status="PASS">
+        <test-method signature="testCollectionOrderIsUnstable()[pri:0, instance:org.wildcraft.util.collections.CollectionFactoryTest@441772e]" started-at="2017-10-15T08:17:57Z" name="testCollectionOrderIsUnstable" finished-at="2017-10-15T08:17:57Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCollectionOrderIsUnstable -->
-        <test-method signature="testCollectionOrderIsUnstable()[pri:0, instance:org.wildcraft.util.collections.CollectionFactoryTest@441772e]" started-at="2017-10-14T20:49:31Z" name="testCollectionOrderIsUnstable" finished-at="2017-10-14T20:49:31Z" duration-ms="1" status="PASS">
+        <test-method signature="testCollectionOrderIsUnstable()[pri:0, instance:org.wildcraft.util.collections.CollectionFactoryTest@441772e]" started-at="2017-10-15T08:17:57Z" name="testCollectionOrderIsUnstable" finished-at="2017-10-15T08:17:57Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCollectionOrderIsUnstable -->
-        <test-method signature="testCollectionOrderIsUnstable()[pri:0, instance:org.wildcraft.util.collections.CollectionFactoryTest@441772e]" started-at="2017-10-14T20:49:31Z" name="testCollectionOrderIsUnstable" finished-at="2017-10-14T20:49:31Z" duration-ms="0" status="PASS">
+        <test-method signature="testCollectionOrderIsUnstable()[pri:0, instance:org.wildcraft.util.collections.CollectionFactoryTest@441772e]" started-at="2017-10-15T08:17:57Z" name="testCollectionOrderIsUnstable" finished-at="2017-10-15T08:17:57Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCollectionOrderIsUnstable -->
-        <test-method signature="testCollectionsAreImmutable()[pri:0, instance:org.wildcraft.util.collections.CollectionFactoryTest@441772e]" started-at="2017-10-14T20:49:31Z" name="testCollectionsAreImmutable" finished-at="2017-10-14T20:49:31Z" duration-ms="15" status="PASS">
+        <test-method signature="testCollectionsAreImmutable()[pri:0, instance:org.wildcraft.util.collections.CollectionFactoryTest@441772e]" started-at="2017-10-15T08:17:57Z" name="testCollectionsAreImmutable" finished-at="2017-10-15T08:17:57Z" duration-ms="17" status="PASS">
           <exception class="java.lang.UnsupportedOperationException">
             <full-stacktrace>
               <![CDATA[java.lang.UnsupportedOperationException
@@ -143,19 +143,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCollectionsAreImmutable -->
-        <test-method signature="testCreateCollectionInJava9()[pri:0, instance:org.wildcraft.util.collections.CollectionFactoryTest@441772e]" started-at="2017-10-14T20:49:31Z" name="testCreateCollectionInJava9" finished-at="2017-10-14T20:49:31Z" duration-ms="2" status="PASS">
+        <test-method signature="testCreateCollectionInJava9()[pri:0, instance:org.wildcraft.util.collections.CollectionFactoryTest@441772e]" started-at="2017-10-15T08:17:57Z" name="testCreateCollectionInJava9" finished-at="2017-10-15T08:17:57Z" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCreateCollectionInJava9 -->
-        <test-method signature="testImmutableMapOf10Elements()[pri:0, instance:org.wildcraft.util.collections.CollectionFactoryTest@441772e]" started-at="2017-10-14T20:49:31Z" name="testImmutableMapOf10Elements" finished-at="2017-10-14T20:49:31Z" duration-ms="30" status="PASS">
+        <test-method signature="testImmutableMapOf10Elements()[pri:0, instance:org.wildcraft.util.collections.CollectionFactoryTest@441772e]" started-at="2017-10-15T08:17:57Z" name="testImmutableMapOf10Elements" finished-at="2017-10-15T08:17:57Z" duration-ms="22" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testImmutableMapOf10Elements -->
-        <test-method signature="testCreateCollectionWithoutEnhancement()[pri:0, instance:org.wildcraft.util.collections.CollectionFactoryTest@441772e]" started-at="2017-10-14T20:49:31Z" name="testCreateCollectionWithoutEnhancement" finished-at="2017-10-14T20:49:31Z" duration-ms="0" status="PASS">
+        <test-method signature="testCreateCollectionWithoutEnhancement()[pri:0, instance:org.wildcraft.util.collections.CollectionFactoryTest@441772e]" started-at="2017-10-15T08:17:57Z" name="testCreateCollectionWithoutEnhancement" finished-at="2017-10-15T08:17:57Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCreateCollectionWithoutEnhancement -->
-        <test-method signature="testImmutableMapOf11Elements()[pri:0, instance:org.wildcraft.util.collections.CollectionFactoryTest@441772e]" started-at="2017-10-14T20:49:31Z" name="testImmutableMapOf11Elements" finished-at="2017-10-14T20:49:31Z" duration-ms="1" status="PASS">
+        <test-method signature="testImmutableMapOf11Elements()[pri:0, instance:org.wildcraft.util.collections.CollectionFactoryTest@441772e]" started-at="2017-10-15T08:17:57Z" name="testImmutableMapOf11Elements" finished-at="2017-10-15T08:17:57Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testImmutableMapOf11Elements -->
