@@ -1,0 +1,5 @@
+language: java
+sudo: false
+script: mvn -f parent/pom.xml package
+dist: trusty
+jdk: oraclejdk8
