@@ -6,11 +6,8 @@ import org.testng.Assert;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import sun.jvm.hotspot.asm.Operand;
 
 import java.util.Arrays;
-import java.util.function.IntBinaryOperator;
-import java.util.function.IntUnaryOperator;
 
 /**
  * Created by NSR on 2/6/2017.
@@ -76,4 +73,22 @@ public class ArraysTest {
 
        // Arrays.setAll(expected,);
     }
+
+    @Test
+    public void testFill() {
+
+        int a [] = new int[] {1,2,3};
+        Arrays.fill(a,1);
+        Assert.assertEquals(a,new int[]{1,1,1});
+
+     }
+
+    @Test
+    public void testCopyOfRange() {
+        int[] copy;
+        copy = Arrays.copyOfRange(actual,0,2);
+        Assert.assertEquals(copy,new int[] {1,2,3});
+    }
+
+
 }
