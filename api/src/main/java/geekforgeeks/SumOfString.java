@@ -20,7 +20,7 @@ public class SumOfString {
 
        for (int i = 1, j=0; i < args.length; j++,i++) {
            sum = 0;
-           if(args[i].length()<=4) results[j] = false;
+           if(args[i].length()<4&&args[i].length()%2!=0) results[j] = false;
            else
            results[j] = isSumStringRecursion(Integer.valueOf( args[i]),args[i].length()-2);
        }
