@@ -9,9 +9,7 @@
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <modules>
-        <module>../api</module>
-        <module>../lang</module>
-        <module>../concepts</module>
+        <module>../programs</module>
       </modules>
 
     <properties>

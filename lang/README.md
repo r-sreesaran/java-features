@@ -1,1 +1,0 @@
-This Module is support to hold Examples for Java language Features.

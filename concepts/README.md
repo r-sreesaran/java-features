@@ -1,1 +1,0 @@
-This Module is supposed to hold Examples for Java Programming Concepts.
