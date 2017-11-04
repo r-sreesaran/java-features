@@ -42,7 +42,7 @@ public class SumStringTest {
     public void sumStringTestCase3() {
 
         String[] testCase = {"3","12243660","1111112223","2368"};
-        boolean[] expectedResults = {false,false,false};
+        boolean[] expectedResults = {false,false,true};
 
         SumOfString test = new SumOfString();
         boolean[] ActualResults = test.operation(testCase);
