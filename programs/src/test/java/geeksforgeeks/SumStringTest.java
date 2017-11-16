@@ -2,10 +2,17 @@ package geeksforgeeks;
 
 import geekforgeeks.SumOfString;
 import org.testng.Assert;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 import org.testng.internal.junit.ArrayAsserts;
 
 public class SumStringTest {
+
+    @BeforeTest
+    public void test() {
+        System.out.println("before Method");
+    }
 
     @Test
     public void sumStringTestCase1() {
@@ -21,6 +28,10 @@ public class SumStringTest {
 
     }
 
+    @BeforeTest
+    public void test1() {
+        System.out.println("before Method");
+    }
 
     @Test
     public void sumStringTestCase2() {
