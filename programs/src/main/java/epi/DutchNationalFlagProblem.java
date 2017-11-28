@@ -5,17 +5,13 @@ import java.util.concurrent.TimeUnit;
 
 public class DutchNationalFlagProblem {
 
-    int [] inputs = {0,1,0,1,2,0,1,2,1,1};
-   // Enum
 
-    public void arrangeInpts() {
-long stopTime;
-long startTime= System.currentTimeMillis();
-        int hi=inputs.length-1;
-        int mid=0,low =0;
+    public void arrangeInpts(int[] inputs) {
+        int hi = inputs.length - 1;
+        int mid = 0, low = 0;
         int temp;
 
-        while(mid<hi) {
+        while (mid < hi) {
             switch (inputs[mid]) {
                 case 0:
                     temp = inputs[low];
@@ -37,11 +33,8 @@ long startTime= System.currentTimeMillis();
                     break;
             }
         }
-        stopTime = System.currentTimeMillis();
         Arrays.stream(inputs).forEach(System.out::print);
         System.out.println();
-        System.out.println("Duration:" + (stopTime-startTime)+" nano seconds");
-        System.out.println("Duration :"+ TimeUnit.NANOSECONDS.toSeconds( stopTime - startTime)+" seconds");
     }
 
 
