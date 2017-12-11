@@ -1,5 +1,6 @@
-package epi;
+package epi.array;
 
+import epi.array.PrimeNo;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 

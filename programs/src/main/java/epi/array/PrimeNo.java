@@ -1,9 +1,7 @@
-package epi;
+package epi.array;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.stream.IntStream;
-import java.util.stream.Stream;
 
 //This will find all the prime numbers within the given limit
 public class PrimeNo {

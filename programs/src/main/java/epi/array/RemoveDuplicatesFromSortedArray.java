@@ -1,4 +1,4 @@
-package epi;
+package epi.array;
 
 import java.util.*;
 
