@@ -38,8 +38,16 @@ public class TestSudokuSolver {
 
     @Test
     public void test1() {
+        long stopTime;
+        long startTime;
+        startTime = System.currentTimeMillis();
+
         SudokuChecker solver = new SudokuChecker();
         solver.setInputs(values1);
+        stopTime = System.currentTimeMillis();
+        System.out.println("Duration:" + (stopTime-startTime)+" nano seconds");
+
         Assert.assertEquals(true,solver.checker());
+
     }
 }
