@@ -1,4 +1,0 @@
---patch-module
-org.wildcraft.tooling=_
---add-reads
-org.wildcraft.tooling=ALL-UNNAMED
