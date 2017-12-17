@@ -4,17 +4,13 @@ package epi.array;
 
 public class PascalTriangle {
 
-    //using two dimensional array
+    //using two dimensional array with
     public void generatePacscalTriangle(int n) {
 
         int values[][] = new int [n][n];
         for(int line=0;line<n;line++) {
             for(int j=0;j<=line;j++) {
-                if(j==0||j==line)
-                 values[line][j]=1;
-               else
-                 values[line][j] = values[line-1][j]+ values[line-1][j-1];
-
+                values[line][j]=(j==0||j==line)?1:values[line-1][j]+ values[line-1][j-1];
             }
         }
         printPascalTriangle(values);
