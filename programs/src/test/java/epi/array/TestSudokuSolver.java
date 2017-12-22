@@ -1,6 +1,7 @@
 package epi.array;
 
 
+import epi.array.SudokuChecker;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 

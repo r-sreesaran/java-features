@@ -16,7 +16,8 @@ public class PascalTriangle {
         printPascalTriangle(values);
     }
 
-    public void printPascalTriangle(int values[][]) {
+
+        public void printPascalTriangle(int values[][]) {
         for(int i=0;i<values.length;i++) {
             for(int j=0;j<values.length;j++) {
                 System.out.println(values[i][j]);
