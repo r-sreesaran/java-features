@@ -1,5 +1,9 @@
-org/wildcraft/util/collections/CollectionFactoryTest.class
-org/wildcraft/util/optional/OptionalTest.class
-org/wildcraft/util/arrays/CompareArraysTest.class
-org/wildcraft/util/reactive/ReactiveTest.class
-org/wildcraft/util/stream/StreamTest.class
+geeksforgeeks/FibonacciTest.class
+geeksforgeeks/RotateAndDeleteTest.class
+geeksforgeeks/DutchNationalFlagProblemTest.class
+geeksforgeeks/SumStringTest.class
+epi/array/TestSudokuSolver.class
+epi/array/TestSodukuCheck.class
+geeksforgeeks/CountSubStringTest.class
+epi/array/TestReplaceAndRemove.class
+epi/array/TestPrimeNo.class

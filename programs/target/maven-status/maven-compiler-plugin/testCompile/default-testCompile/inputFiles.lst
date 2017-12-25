@@ -1,5 +1,9 @@
-/Users/sree/Documents/opensource/github/jdk9-features/api/src/test/java/org/wildcraft/util/optional/OptionalTest.java
-/Users/sree/Documents/opensource/github/jdk9-features/api/src/test/java/org/wildcraft/util/reactive/ReactiveTest.java
-/Users/sree/Documents/opensource/github/jdk9-features/api/src/test/java/org/wildcraft/util/collections/CollectionFactoryTest.java
-/Users/sree/Documents/opensource/github/jdk9-features/api/src/test/java/org/wildcraft/util/arrays/CompareArraysTest.java
-/Users/sree/Documents/opensource/github/jdk9-features/api/src/test/java/org/wildcraft/util/stream/StreamTest.java
+/Users/sree/Documents/opensource/github/java-features/programs/src/test/java/epi/array/TestReplaceAndRemove.java
+/Users/sree/Documents/opensource/github/java-features/programs/src/test/java/geeksforgeeks/SumStringTest.java
+/Users/sree/Documents/opensource/github/java-features/programs/src/test/java/geeksforgeeks/CountSubStringTest.java
+/Users/sree/Documents/opensource/github/java-features/programs/src/test/java/geeksforgeeks/RotateAndDeleteTest.java
+/Users/sree/Documents/opensource/github/java-features/programs/src/test/java/epi/array/TestSudokuSolver.java
+/Users/sree/Documents/opensource/github/java-features/programs/src/test/java/epi/array/TestSodukuCheck.java
+/Users/sree/Documents/opensource/github/java-features/programs/src/test/java/epi/array/TestPrimeNo.java
+/Users/sree/Documents/opensource/github/java-features/programs/src/test/java/geeksforgeeks/FibonacciTest.java
+/Users/sree/Documents/opensource/github/java-features/programs/src/test/java/geeksforgeeks/DutchNationalFlagProblemTest.java

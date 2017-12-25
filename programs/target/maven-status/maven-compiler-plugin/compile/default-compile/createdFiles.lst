@@ -1,2 +1,14 @@
-org/wildcraft/util/optional/Person.class
-org/wildcraft/util/reactive/MySubscriber.class
+geekforgeeks/ReplaceAndRemove.class
+geekforgeeks/RotateAndDelete.class
+epi/array/PermuteArray.class
+geekforgeeks/SumOfString.class
+epi/array/SudokuChecker.class
+geekforgeeks/CountSubStrings.class
+epi/array/BuyAndSellStock.class
+geekforgeeks/Fibonacci.class
+epi/string/Convertor.class
+epi/array/PrimeNo.class
+epi/array/DutchNationalFlagProblem.class
+epi/array/RemoveDuplicatesFromSortedArray.class
+epi/array/PascalTriangle.class
+epi/string/SpreadSheetEncoding.class

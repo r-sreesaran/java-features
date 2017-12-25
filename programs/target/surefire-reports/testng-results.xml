@@ -1,165 +1,81 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="1" total="26" passed="25" failed="0" skipped="0">
+<testng-results skipped="0" failed="0" ignored="0" total="10" passed="10">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2017-10-15T02:47:57Z" name="Command line suite" finished-at="2017-10-15T02:47:57Z" duration-ms="254">
+  <suite name="Command line suite" duration-ms="309" started-at="2017-12-25T10:03:52Z" finished-at="2017-12-25T10:03:52Z">
     <groups>
     </groups>
-    <test started-at="2017-10-15T02:47:57Z" name="Command line test" finished-at="2017-10-15T02:47:57Z" duration-ms="254">
-      <class name="org.wildcraft.util.stream.StreamTest">
-        <test-method signature="testDropWhile()[pri:0, instance:org.wildcraft.util.stream.StreamTest@4d9e68d0]" started-at="2017-10-15T08:17:57Z" name="testDropWhile" finished-at="2017-10-15T08:17:57Z" duration-ms="78" status="PASS">
+    <test name="Command line test" duration-ms="309" started-at="2017-12-25T10:03:52Z" finished-at="2017-12-25T10:03:52Z">
+      <class name="epi.array.TestPrimeNo">
+        <test-method status="PASS" signature="testPrimeNo()[pri:0, instance:epi.array.TestPrimeNo@edf4efb]" name="testPrimeNo" duration-ms="219" started-at="2017-12-25T15:33:52Z" finished-at="2017-12-25T15:33:52Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testDropWhile -->
-        <test-method signature="testIterateStoppable()[pri:0, instance:org.wildcraft.util.stream.StreamTest@4d9e68d0]" started-at="2017-10-15T08:17:57Z" name="testIterateStoppable" finished-at="2017-10-15T08:17:57Z" duration-ms="2" status="PASS">
+        </test-method> <!-- testPrimeNo -->
+      </class> <!-- epi.array.TestPrimeNo -->
+      <class name="epi.array.TestSudokuSolver">
+        <test-method status="PASS" signature="test()[pri:0, instance:epi.array.TestSudokuSolver@2f7a2457]" name="test" duration-ms="1" started-at="2017-12-25T15:33:52Z" finished-at="2017-12-25T15:33:52Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testIterateStoppable -->
-        <test-method signature="testOfNullable()[pri:0, instance:org.wildcraft.util.stream.StreamTest@4d9e68d0]" started-at="2017-10-15T08:17:57Z" name="testOfNullable" finished-at="2017-10-15T08:17:57Z" duration-ms="1" status="PASS">
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test1()[pri:0, instance:epi.array.TestSudokuSolver@2f7a2457]" name="test1" duration-ms="0" started-at="2017-12-25T15:33:52Z" finished-at="2017-12-25T15:33:52Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testOfNullable -->
-        <test-method signature="testOfNullableStream()[pri:0, instance:org.wildcraft.util.stream.StreamTest@4d9e68d0]" started-at="2017-10-15T08:17:57Z" name="testOfNullableStream" finished-at="2017-10-15T08:17:57Z" duration-ms="1" status="PASS">
+        </test-method> <!-- test1 -->
+      </class> <!-- epi.array.TestSudokuSolver -->
+      <class name="geeksforgeeks.FibonacciTest">
+        <test-method status="PASS" signature="testFibonacci()[pri:0, instance:geeksforgeeks.FibonacciTest@1554909b]" name="testFibonacci" duration-ms="1" started-at="2017-12-25T15:33:52Z" finished-at="2017-12-25T15:33:52Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testOfNullableStream -->
-        <test-method signature="testOfNullableStreamCount()[pri:0, instance:org.wildcraft.util.stream.StreamTest@4d9e68d0]" started-at="2017-10-15T08:17:57Z" name="testOfNullableStreamCount" finished-at="2017-10-15T08:17:57Z" duration-ms="10" status="PASS">
+        </test-method> <!-- testFibonacci -->
+      </class> <!-- geeksforgeeks.FibonacciTest -->
+      <class name="geeksforgeeks.SumStringTest">
+        <test-method status="PASS" signature="test()[pri:0, instance:geeksforgeeks.SumStringTest@7f690630]" name="test" is-config="true" duration-ms="10" started-at="2017-12-25T15:33:52Z" finished-at="2017-12-25T15:33:52Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testOfNullableStreamCount -->
-        <test-method signature="testTakeWhile()[pri:0, instance:org.wildcraft.util.stream.StreamTest@4d9e68d0]" started-at="2017-10-15T08:17:57Z" name="testTakeWhile" finished-at="2017-10-15T08:17:57Z" duration-ms="12" status="PASS">
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test1()[pri:0, instance:geeksforgeeks.SumStringTest@7f690630]" name="test1" is-config="true" duration-ms="0" started-at="2017-12-25T15:33:52Z" finished-at="2017-12-25T15:33:52Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testTakeWhile -->
-      </class> <!-- org.wildcraft.util.stream.StreamTest -->
-      <class name="org.wildcraft.util.optional.OptionalTest">
-        <test-method signature="testOptionalIfPresentOrElse()[pri:0, instance:org.wildcraft.util.optional.OptionalTest@7334aada]" started-at="2017-10-15T08:17:57Z" name="testOptionalIfPresentOrElse" finished-at="2017-10-15T08:17:57Z" duration-ms="1" status="PASS">
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="sumStringTestCase1()[pri:0, instance:geeksforgeeks.SumStringTest@7f690630]" name="sumStringTestCase1" duration-ms="18" started-at="2017-12-25T15:33:52Z" finished-at="2017-12-25T15:33:52Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testOptionalIfPresentOrElse -->
-        <test-method signature="testOptionalOr()[pri:0, instance:org.wildcraft.util.optional.OptionalTest@7334aada]" started-at="2017-10-15T08:17:57Z" name="testOptionalOr" finished-at="2017-10-15T08:17:57Z" duration-ms="2" status="PASS">
+        </test-method> <!-- sumStringTestCase1 -->
+        <test-method status="PASS" signature="sumStringTestCase2()[pri:0, instance:geeksforgeeks.SumStringTest@7f690630]" name="sumStringTestCase2" duration-ms="1" started-at="2017-12-25T15:33:52Z" finished-at="2017-12-25T15:33:52Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testOptionalOr -->
-        <test-method signature="testOptionalStream()[pri:0, instance:org.wildcraft.util.optional.OptionalTest@7334aada]" started-at="2017-10-15T08:17:57Z" name="testOptionalStream" finished-at="2017-10-15T08:17:57Z" duration-ms="1" status="PASS">
+        </test-method> <!-- sumStringTestCase2 -->
+        <test-method status="PASS" signature="sumStringTestCase3()[pri:0, instance:geeksforgeeks.SumStringTest@7f690630]" name="sumStringTestCase3" duration-ms="0" started-at="2017-12-25T15:33:52Z" finished-at="2017-12-25T15:33:52Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testOptionalStream -->
-        <test-method signature="testOptionalWithoutIfPresentOrElse()[pri:0, instance:org.wildcraft.util.optional.OptionalTest@7334aada]" started-at="2017-10-15T08:17:57Z" name="testOptionalWithoutIfPresentOrElse" finished-at="2017-10-15T08:17:57Z" duration-ms="0" status="PASS">
+        </test-method> <!-- sumStringTestCase3 -->
+      </class> <!-- geeksforgeeks.SumStringTest -->
+      <class name="geeksforgeeks.CountSubStringTest">
+        <test-method status="PASS" signature="test()[pri:0, instance:geeksforgeeks.CountSubStringTest@566776ad]" name="test" duration-ms="19" started-at="2017-12-25T15:33:52Z" finished-at="2017-12-25T15:33:52Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testOptionalWithoutIfPresentOrElse -->
-        <test-method signature="testOptionalWithoutOr()[pri:0, instance:org.wildcraft.util.optional.OptionalTest@7334aada]" started-at="2017-10-15T08:17:57Z" name="testOptionalWithoutOr" finished-at="2017-10-15T08:17:57Z" duration-ms="1" status="PASS">
+        </test-method> <!-- test -->
+      </class> <!-- geeksforgeeks.CountSubStringTest -->
+      <class name="geeksforgeeks.DutchNationalFlagProblemTest">
+        <test-method status="PASS" signature="StartTim()[pri:0, instance:geeksforgeeks.DutchNationalFlagProblemTest@6108b2d7]" name="StartTim" is-config="true" duration-ms="0" started-at="2017-12-25T15:33:52Z" finished-at="2017-12-25T15:33:52Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testOptionalWithoutOr -->
-        <test-method signature="testOptionalWithoutStream()[pri:0, instance:org.wildcraft.util.optional.OptionalTest@7334aada]" started-at="2017-10-15T08:17:57Z" name="testOptionalWithoutStream" finished-at="2017-10-15T08:17:57Z" duration-ms="1" status="PASS">
+        </test-method> <!-- StartTim -->
+        <test-method status="PASS" signature="testInput1()[pri:0, instance:geeksforgeeks.DutchNationalFlagProblemTest@6108b2d7]" name="testInput1" duration-ms="17" started-at="2017-12-25T15:33:52Z" finished-at="2017-12-25T15:33:52Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testOptionalWithoutStream -->
-      </class> <!-- org.wildcraft.util.optional.OptionalTest -->
-      <class name="org.wildcraft.util.reactive.ReactiveTest">
-        <test-method signature="testPublishAndSubscribe()[pri:0, instance:org.wildcraft.util.reactive.ReactiveTest@1d9b7cce]" started-at="2017-10-15T08:17:57Z" name="testPublishAndSubscribe" finished-at="2017-10-15T08:17:57Z" duration-ms="26" status="PASS">
+        </test-method> <!-- testInput1 -->
+        <test-method status="PASS" signature="calculateTotalTime()[pri:0, instance:geeksforgeeks.DutchNationalFlagProblemTest@6108b2d7]" name="calculateTotalTime" is-config="true" duration-ms="1" started-at="2017-12-25T15:33:52Z" finished-at="2017-12-25T15:33:52Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testPublishAndSubscribe -->
-      </class> <!-- org.wildcraft.util.reactive.ReactiveTest -->
-      <class name="org.wildcraft.util.arrays.CompareArraysTest">
-        <test-method signature="testArraysCompare()[pri:0, instance:org.wildcraft.util.arrays.CompareArraysTest@123ef382]" started-at="2017-10-15T08:17:57Z" name="testArraysCompare" finished-at="2017-10-15T08:17:57Z" duration-ms="35" status="PASS">
+        </test-method> <!-- calculateTotalTime -->
+      </class> <!-- geeksforgeeks.DutchNationalFlagProblemTest -->
+      <class name="geeksforgeeks.RotateAndDeleteTest">
+        <test-method status="PASS" signature="tc1()[pri:0, instance:geeksforgeeks.RotateAndDeleteTest@6bf256fa]" name="tc1" duration-ms="1" started-at="2017-12-25T15:33:52Z" finished-at="2017-12-25T15:33:52Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testArraysCompare -->
-        <test-method signature="testArraysCompareWithDifferentArray()[pri:0, instance:org.wildcraft.util.arrays.CompareArraysTest@123ef382]" started-at="2017-10-15T08:17:57Z" name="testArraysCompareWithDifferentArray" finished-at="2017-10-15T08:17:57Z" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testArraysCompareWithDifferentArray -->
-      </class> <!-- org.wildcraft.util.arrays.CompareArraysTest -->
-      <class name="org.wildcraft.util.collections.CollectionFactoryTest">
-        <test-method signature="testCollectionOrderIsUnstable()[pri:0, instance:org.wildcraft.util.collections.CollectionFactoryTest@441772e]" started-at="2017-10-15T08:17:57Z" name="testCollectionOrderIsUnstable" finished-at="2017-10-15T08:17:57Z" duration-ms="3" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testCollectionOrderIsUnstable -->
-        <test-method signature="testCollectionOrderIsUnstable()[pri:0, instance:org.wildcraft.util.collections.CollectionFactoryTest@441772e]" started-at="2017-10-15T08:17:57Z" name="testCollectionOrderIsUnstable" finished-at="2017-10-15T08:17:57Z" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testCollectionOrderIsUnstable -->
-        <test-method signature="testCollectionOrderIsUnstable()[pri:0, instance:org.wildcraft.util.collections.CollectionFactoryTest@441772e]" started-at="2017-10-15T08:17:57Z" name="testCollectionOrderIsUnstable" finished-at="2017-10-15T08:17:57Z" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testCollectionOrderIsUnstable -->
-        <test-method signature="testCollectionOrderIsUnstable()[pri:0, instance:org.wildcraft.util.collections.CollectionFactoryTest@441772e]" started-at="2017-10-15T08:17:57Z" name="testCollectionOrderIsUnstable" finished-at="2017-10-15T08:17:57Z" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testCollectionOrderIsUnstable -->
-        <test-method signature="testCollectionOrderIsUnstable()[pri:0, instance:org.wildcraft.util.collections.CollectionFactoryTest@441772e]" started-at="2017-10-15T08:17:57Z" name="testCollectionOrderIsUnstable" finished-at="2017-10-15T08:17:57Z" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testCollectionOrderIsUnstable -->
-        <test-method signature="testCollectionsAreImmutable()[pri:0, instance:org.wildcraft.util.collections.CollectionFactoryTest@441772e]" started-at="2017-10-15T08:17:57Z" name="testCollectionsAreImmutable" finished-at="2017-10-15T08:17:57Z" duration-ms="17" status="PASS">
-          <exception class="java.lang.UnsupportedOperationException">
-            <full-stacktrace>
-              <![CDATA[java.lang.UnsupportedOperationException
-	at java.base/java.util.ImmutableCollections.uoe(ImmutableCollections.java:70)
-	at java.base/java.util.ImmutableCollections$AbstractImmutableList.add(ImmutableCollections.java:76)
-	at org.wildcraft.util.collections.CollectionFactoryTest.testCollectionsAreImmutable(CollectionFactoryTest.java:52)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:744)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
-	at org.testng.TestNG.runSuites(TestNG.java:1144)
-	at org.testng.TestNG.run(TestNG.java:1115)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
-	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
-	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.UnsupportedOperationException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testCollectionsAreImmutable -->
-        <test-method signature="testCreateCollectionInJava9()[pri:0, instance:org.wildcraft.util.collections.CollectionFactoryTest@441772e]" started-at="2017-10-15T08:17:57Z" name="testCreateCollectionInJava9" finished-at="2017-10-15T08:17:57Z" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testCreateCollectionInJava9 -->
-        <test-method signature="testImmutableMapOf10Elements()[pri:0, instance:org.wildcraft.util.collections.CollectionFactoryTest@441772e]" started-at="2017-10-15T08:17:57Z" name="testImmutableMapOf10Elements" finished-at="2017-10-15T08:17:57Z" duration-ms="22" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testImmutableMapOf10Elements -->
-        <test-method signature="testCreateCollectionWithoutEnhancement()[pri:0, instance:org.wildcraft.util.collections.CollectionFactoryTest@441772e]" started-at="2017-10-15T08:17:57Z" name="testCreateCollectionWithoutEnhancement" finished-at="2017-10-15T08:17:57Z" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testCreateCollectionWithoutEnhancement -->
-        <test-method signature="testImmutableMapOf11Elements()[pri:0, instance:org.wildcraft.util.collections.CollectionFactoryTest@441772e]" started-at="2017-10-15T08:17:57Z" name="testImmutableMapOf11Elements" finished-at="2017-10-15T08:17:57Z" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testImmutableMapOf11Elements -->
-      </class> <!-- org.wildcraft.util.collections.CollectionFactoryTest -->
+        </test-method> <!-- tc1 -->
+      </class> <!-- geeksforgeeks.RotateAndDeleteTest -->
     </test> <!-- Command line test -->
   </suite> <!-- Command line suite -->
 </testng-results>
